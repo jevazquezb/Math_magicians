@@ -1,5 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#root {
+  width: 20%;
+}
+
 .title {
-    color: red;
-    font-weight: bold;
-    font-size: 4rem;
+  font-family: 'Russo One', sans-serif;;
+  color: #2D2926FF;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.calc-disp {
+  background-color: #858694;
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  text-align: right;
+  padding: 0.4rem;
+}
+
+.btn-cont {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.btn {
+  background-color: #e0e0e0;
+  appearance: none;
+  border: 1px solid #d1d1d1;
+  outline: none;
+  font-size: 0.6rem;
+  line-height: 2rem;
+  padding: 0.4rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #f3f3f3;
+}
+
+.op {
+  background-color: #f5913e;
+}
+
+.op:hover {
+  background-color: #ffb980;
+}
+
+.zero {
+  grid-column: 1/3;
 }
