@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math magicians: setup
+# Math magicians: components
 
-> In this part of the project, we set up the environment and tools needed to develop a React application. In the following projects, we will develop the actual application.
+> In this part of the project, we developed a React component that holds the UI of the calculator.
 
 ## Built With
 
