@@ -1,4 +1,6 @@
 import React from 'react';
+import calculate from '../logic/calculate';
+import operate from '../logic/operate';
 
 class CalcUI extends React.PureComponent {
   createDigits = () => {
