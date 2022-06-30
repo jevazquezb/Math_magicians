@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math magicians: components
+# Math magicians: events
 
-> In this part of the project, we developed a React component that holds the UI of the calculator.
+> In this part of the project, we added the logic needed to make the Calculator component actually work.
 
 ## Built With
 
