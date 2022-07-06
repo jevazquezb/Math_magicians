@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math magicians: refactor with hooks
+# Math magicians: full website
 
-> In this part of the project, we refactored the Calculator component from a class-based component to a functional component with hooks.
+> In this part of the project, we created a full website for the Math magicians app, consisting of several pages and using the components we already created.
 
 ## Built With
 

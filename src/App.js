@@ -1,13 +1,25 @@
 import React from 'react';
-import CalcUI from './components/Calculator';
+import { Routes, Route } from 'react-router-dom';
+import {
+  Header,
+  Home,
+  CalcSec,
+  Quote,
+} from './sections/sections';
 
 class App extends React.PureComponent {
   render() {
     return (
-      <div className="app">
-        <h1 className="title">Calculator</h1>
-        <CalcUI />
-      </div>
+      <>
+        <Header />
+        <div className="sec-cont">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/calculator" element={<CalcSec />} />
+            <Route path="/quote" element={<Quote />} />
+          </Routes>
+        </div>
+      </>
     );
   }
 }
