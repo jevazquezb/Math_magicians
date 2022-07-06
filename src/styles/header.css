@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ba6f12;
+  padding: 3rem 6rem;
+}
+
+h1 {
+  font-family: 'Russo One', sans-serif;
+  color: #fff;
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+.menu-item {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1rem 1.5rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu-item:hover {
+  color: #ffdead;
+}
+
+.active {
+  background-color: #94580e;
+}
+
+.active:hover {
+  color: #fff;
+}
