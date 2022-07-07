@@ -1,0 +1,46 @@
+.calc-cont {
+  width: 35%;
+  margin-right: 20%;
+  float: right;
+}
+
+.calc-disp {
+  background-color: #858694;
+  color: #fff;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  text-align: right;
+  padding: 0.4rem;
+}
+
+.btn-cont {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.btn {
+  background-color: #e0e0e0;
+  appearance: none;
+  border: 1px solid #d1d1d1;
+  outline: none;
+  font-size: 1rem;
+  line-height: 2rem;
+  padding: 0.4rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #f3f3f3;
+}
+
+.op {
+  background-color: #f5913e;
+}
+
+.op:hover {
+  background-color: #ffb980;
+}
+
+.zero {
+  grid-column: 1/3;
+}
