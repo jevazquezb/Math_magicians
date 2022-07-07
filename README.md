@@ -2,7 +2,7 @@
 
 # Math magicians: full website
 
-> In this part of the project, we created a full website for the Math magicians app, consisting of several pages and using the components we already created.
+> This Single-Page Application (SPA) provides a calculator where you can perform basic math operations, such as addition, subtraction, multiplication, division, and modulus.
 
 ## Built With
 
@@ -12,7 +12,8 @@
 
 ## Live Demo
 
-(Coming soon.)
+- [Heroku app.](https://math-magicians-javb.herokuapp.com/)
+- [Netlify app.](https://gentle-lollipop-bd66bb.netlify.app/)
 
 ## Getting Started
 
