@@ -12,8 +12,7 @@
 
 ## Live Demo
 
-- [Heroku app.](https://math-magicians-javb.herokuapp.com/)
-- [Netlify app.](https://gentle-lollipop-bd66bb.netlify.app/)
+- [Live demo link](https://math-magicians-javb.netlify.app).
 
 ## Getting Started
 
